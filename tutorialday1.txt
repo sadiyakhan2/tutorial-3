@@ -1,0 +1,117 @@
+"""print(1, 2, 3)
+print("Hello World")
+print(1)
+print("hello world",1)
+
+a=1
+b=2
+c=4
+print(a+b+c)
+print(a,b,c)
+
+print("Hello, here is string and number combined",123)
+
+print(1,2,3)"""
+
+#EPLICIT
+"""a = "Sameer, "
+b = 14
+print(a+str(b))"""
+
+#print(b)
+#IMPLICIT
+'''a = 12.9
+b = 120 
+c = 13.65432234556
+print(a+b+c)
+'''
+#TYPECASTING
+'''
+Complex numbers:
+1. It has to be a longest number.
+2. If it has a variable "j" in it, then it is a complex number.
+3. If it has a Euler's number (e or E), then it is a complex number.
+E is used to show that the number is very long & the calculator or the compiler has reached its capacity tO show the digits.
+'''
+#IMPLICIT
+"""a=34
+b=34.2121
+c=24e108
+d=178+9j
+print(a+b+c+d)"""
+
+#PRINT STATMENT :
+#print f
+#print seperator
+# end statement
+
+#print("hello there")
+"""name = "Priya"
+age = 18 
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")
+print(f"my name is {name}and I am {age} years old")"""
+
+#SEPERATOR - comma (,) in between is imp
+"""print("hello","there","where","are","you",sep="   ")
+print("hello","there","where","are","you",sep="\\")
+print("hello","there","where","are","you",sep="\t") #tab space
+print("hello","there","where","are","you",sep="\b")#backspace
+print("hello","there","where","are","you",sep="\r")#rewrite 
+print("she","is","here",sep = "\\")
+print("she","is","here",sep = "2    ")
+print("she","is","here",sep = ";")
+print("she","is","here",sep = "p")
+"""
+
+#END STATEMENT - same like seperator
+"""print("hello world",end = "")
+print("user", end ="")
+print("there", )"""
+
+#TO CREATE & MODIFY A TEXT FILE CREATING STATEMENT - write
+"""sourceFile = open('python.txt', 'w')  #syntax
+print("this is a file ",file = sourceFile)
+sourceFile.close()"""
+#read
+"""file=open("newfile.txt","r")
+read=file.read()
+print(read)
+file.close()"""
+
+#INPUT FUNCTION
+"""a = input("What is your name:")
+a = input("What is your name\n") - #new line
+print(a)"""
+
+#INPUT FUNCTION WITH TYPE CASTING
+"""a = int(input ("Enter a number "))
+b = int(input ("Enter a second number "))
+#c = int(a+b)
+print(a + b)"""
+
+"""a = complex(input ("Enter a number "))
+b = complex(input ("Enter a second number "))
+b = complex(input ("Enter a third number "))
+print(a + b)
+""" # all complex can be integer and flot and for other it's the opposite way
+"""a = float(input ("Enter a number "))
+b = float(input ("Enter a second number "))
+print(a + b)"""
+
+#OPERATORS
+"""a = 12 
+b = 2 
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(ab)"""
+#print(7,4,3,2)
+
+file:
